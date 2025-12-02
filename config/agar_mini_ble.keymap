@@ -8,6 +8,8 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 
+&gresc { mods = <(MOD_LSFT|MOD_RSFT)>; };
+
 / {
     keymap {
         compatible = "zmk,keymap";
