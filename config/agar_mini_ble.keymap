@@ -34,10 +34,10 @@
 
         layer2 {
             bindings = <
-&kp CAPSLOCK  &kp PRINTSCREEN  &kp PAGE_UP     &kp HOME  &kp F2     &trans  &trans  &trans  &kp INSERT  &trans    &trans     &trans  &trans
-&trans        &kp DELETE       &kp PAGE_DOWN   &kp END   &kp F2     &trans  &trans  &trans  &trans      &trans    &trans     &trans
-&trans        &kp PAUSE_BREAK  &kp SCROLLLOCK  &kp F4    &kp LG(V)  &trans  &trans  &trans  &trans      &kp RGUI  &trans     &trans
-              &trans           &trans                    &trans             &trans                      &kp RALT  &kp RCTRL
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+        &trans  &trans          &trans          &trans                  &trans  &trans
             >;
         };
 
