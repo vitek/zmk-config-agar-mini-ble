@@ -44,7 +44,7 @@
 
         layer3 {
             bindings = <
-&kp TILDE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp K_MUTE  &trans  &trans  &trans  &kp SYSREQ  &trans         &trans    &kp UP_ARROW  &trans  &trans
+&kp GRAVE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp K_MUTE  &trans  &trans  &trans  &kp SYSREQ  &trans         &trans    &kp UP_ARROW  &trans  &trans
 &trans     &kp C_BRI_DEC      &kp C_BRI_INC    &kp DELETE  &trans  &trans  &trans  &kp HOME    &kp PG_UP      &kp LEFT  &kp RIGHT     &trans
 &trans     &trans             &trans           &trans      &trans  &trans  &trans  &kp END     &kp PAGE_DOWN  &kp DOWN  &trans        &trans
            &trans             &trans                       &trans          &mo 5                              &trans    &mo 4
