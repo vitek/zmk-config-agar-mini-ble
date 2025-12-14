@@ -26,10 +26,10 @@
 
         layer1 {
             bindings = <
-&kp TILDE  &kp N1  &kp N2  &kp N3      &kp N4  &kp N5  &kp N6  &kp N7  &kp N8            &kp N9             &kp N0            &kp MINUS  &kp EQUAL
-&trans     &trans  &trans  &kp DELETE  &trans  &trans  &trans  &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SINGLE_QUOTE  &trans
-&trans     &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans            &kp SLASH          &trans            &trans
-           &trans  &trans              &trans          &trans                            &trans             &trans
+&kp TILDE  &kp N1  &kp N2  &kp N3      &kp N4  &kp N5  &kp N6  &kp N7            &kp N8             &kp N9             &kp N0            &kp MINUS  &kp EQUAL
+&trans     &trans  &trans  &kp DELETE  &trans  &trans  &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans             &kp SINGLE_QUOTE  &trans
+&trans     &trans  &trans  &trans      &trans  &trans  &trans  &trans            &trans             &kp SLASH          &trans            &trans
+           &trans  &trans              &trans          &trans                                       &trans             &trans
             >;
         };
 
@@ -44,10 +44,10 @@
 
         layer3 {
             bindings = <
-&trans  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp K_MUTE  &trans  &trans  &trans  &kp SYSREQ  &trans         &trans    &kp UP_ARROW  &trans  &trans
-&trans  &kp C_BRI_DEC      &kp C_BRI_INC    &kp DELETE  &trans  &trans  &trans  &kp HOME    &kp PG_UP      &kp LEFT  &kp RIGHT     &trans
-&trans  &trans             &trans           &trans      &trans  &trans  &trans  &kp END     &kp PAGE_DOWN  &kp DOWN  &trans        &trans
-        &trans             &trans                       &trans          &mo 5                              &trans    &mo 4
+&kp TILDE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp K_MUTE  &trans  &trans  &trans  &kp SYSREQ  &trans         &trans    &kp UP_ARROW  &trans  &trans
+&trans     &kp C_BRI_DEC      &kp C_BRI_INC    &kp DELETE  &trans  &trans  &trans  &kp HOME    &kp PG_UP      &kp LEFT  &kp RIGHT     &trans
+&trans     &trans             &trans           &trans      &trans  &trans  &trans  &kp END     &kp PAGE_DOWN  &kp DOWN  &trans        &trans
+           &trans             &trans                       &trans          &mo 5                              &trans    &mo 4
             >;
         };
 
